@@ -1,0 +1,18 @@
+/* admindashboard.css : only rules unique to the dashboard page.
+   Everything else (stats, grid, panels, table, approvals) lives in style.css */
+
+.dashboard-view td {
+  padding: 14px 12px;
+}
+
+.dashboard-view td b {
+  display: block;
+}
+
+.dashboard-view td:nth-child(3) b {
+  font-weight: 700;
+}
+
+.dashboard-view tbody tr:last-child td {
+  border-bottom: 1px solid var(--line);
+}
